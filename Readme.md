@@ -1,8 +1,6 @@
-# Eye Control
+# Meyes - [Eye Control]
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)]()
-
-<!-- descriptive passage about Meyes- control the cursor with your eyes -->
 
 Imagine controlling your computer with your eyes. This is what Meyes does. It is a simple python script that uses the dlib library to detect the eyes and move the cursor accordingly. It also uses the pyautogui library to click and double click.
 
@@ -31,11 +29,10 @@ python eye_control.py
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
 
-## Author
+## Contributors
 [![Twitter Follow](https://img.shields.io/twitter/follow/AkshatK99016584?style=social)](https://twitter.com/AkshatK99016584)
+* maybe you? 😏
 
 ## Acknowledgements
 * [OpenCV](https://opencv.org/)
