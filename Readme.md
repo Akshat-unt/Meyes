@@ -2,7 +2,9 @@
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)]()
 
-Eye Control is a script that helps you to control your cursor with your eyes.
+<!-- descriptive passage about Meyes- control the cursor with your eyes -->
+
+Imagine controlling your computer with your eyes. This is what Meyes does. It is a simple python script that uses the dlib library to detect the eyes and move the cursor accordingly. It also uses the pyautogui library to click and double click.
 
 ## Installation
 

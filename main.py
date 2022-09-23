@@ -3,7 +3,7 @@
 import cv2  # OpenCV
 import mediapipe as mp # Google's MediaPipe
 import pyautogui    # PyAutoGUI
-cam = cv2.VideoCapture(1)   # 0 for internal webcam, 1 for external webcam
+cam = cv2.VideoCapture(0)   # 0 for internal webcam, 1 for external webcam
 face_mesh = mp.solutions.face_mesh.FaceMesh(refine_landmarks=True)  # FaceMesh
 screen_w, screen_h = pyautogui.size()       # Screen size
 while True: 
@@ -31,5 +31,5 @@ while True:
         if (left[0].y - left[1].y) < 0.004:   # If the left eye is closed
             pyautogui.click()   # Click
             pyautogui.sleep(1)  # Wait for 1 second
-    cv2.imshow('Eye Controlled Mouse', frame)   # Show the frame
+    cv2.imshow('Meyes ', frame)   # Show the frame
     cv2.waitKey(1)  # Wait for 1 millisecond
