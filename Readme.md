@@ -27,7 +27,7 @@ python main.py
 
 ## Constraints ⛔
 
-- Descent camera quality
+- Decent camera quality
 - Proper lighting [can't function properly in low lighting]
 
 ## Contributing 🛠️
